@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "principal office",
+      "patterns": [
+        "where is principal's office",
+        "tell me route to principal office",
+        "principal office",
+        "where is principal"
+      ],
+      "responses": [
+        "It is located in the 2nd floor of new building, inside the admin block, room number C201"
+        
+      ]
+    },
+    {
+      "tag": "principal name",
+      "patterns": [
+        "what is principal's name",
+        "who is your principal",
+        "principal name",
+        "who is principal of your college"
+      ],
+      "responses": [
+        "Dr. Rajiv Khatri is the Principal of our college."
+        
+      ]
+    },
+    {
+      "tag": "physics office",
+      "patterns": [
+        "where is physics lab",
+        "tell me route to physics lab",
+        "physics lab",
+        "where is physics lab located"
+      ],
+      "responses": [
+        "It is located in the 3rd floor of old building, room number C204"
+        
+      ]
+    }
+  ]
+}
