@@ -2,7 +2,7 @@ Globot - Ai based counselling chatbot
 
 data_file.json modification
 
-1. Every instance in java must have a Unique tag.
+1. Every instance must have a Unique tag.
 2. Pattern contains type of question that can be asked by user whose answer is same, there must be atleast three versions of questions.
 3. responses contain answers to user questions, these answers are gonna be displayed so proper grammar and punctuations must be used,
    and there must be atleast two answers to the same question.
